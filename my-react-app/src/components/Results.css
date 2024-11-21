@@ -1,0 +1,59 @@
+.results-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+}
+
+.prediction-card,
+.metrics-card,
+.suggestions-card {
+  background: white;
+  border-radius: 10px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.prediction-result {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  padding: 1rem;
+}
+
+.metrics-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.metric {
+  padding: 1rem;
+  background: #f8f9fa;
+  border-radius: 8px;
+}
+
+.suggestion-item {
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  background: #f8f9fa;
+  border-radius: 8px;
+}
+
+.target-value {
+  color: var(--secondary-color);
+  font-weight: bold;
+}
+
+/* Health indicator classes */
+.normal { color: #2ecc71; }
+.warning { color: #f1c40f; }
+.danger { color: #e74c3c; }
+.underweight { color: #3498db; }
+.overweight { color: #e67e22; }
+.obese { color: #e74c3c; }
+
+.back-button {
+  display: block;
+  margin: 2rem auto;
+} 
